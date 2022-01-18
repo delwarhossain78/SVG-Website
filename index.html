@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>SVG Round Cercal Website - RD studio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="main">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Green Heart.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>Studio</li>
+                <li>Partners</li>
+                <li>Media</li>
+                <li>User</li>
+            </ul>
+        </nav>
+        </div>
+
+    <div class="circle-box">
+    <svg height="402" width="402">
+        <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="gray" fill="none"/>
+    </svg>
+    <svg height="402" width="402">
+        <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="#fff" fill="none" id="svgCircle"/>
+    </svg>
+    <div>
+        <span id="step1"></span>
+        <span id="step2"></span>
+        <span id="step3"></span>
+        <span id="step4"></span>
+        <span id="step5"></span>
+    </div>
+    <div class="user-box" id="userbox">
+        <div class="user">
+            <img src="07.jpg" alt="">
+            <h1>Prince Mohd </h1>
+            <p>Subscribe R. D. Studio YouTube Channel and press the bell icon to get latest update.</p>
+            <div class="social-links">
+                <img src="facebook.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="linkedin.png" alt="">
+            </div>
+        </div>
+
+        <div class="user">
+            <img src="2.png" alt="">
+            <h1>Abdur Rahman</h1>
+            <p>Subscribe R. D. Studio YouTube Channel and press the bell icon to get latest update.</p>
+            <div class="social-links">
+                <img src="facebook.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="linkedin.png" alt="">
+            </div>
+    </div>
+        <div class="user">
+            <img src="3.png" alt="">
+            <h1>Mohd Sany</h1>
+            <p>Subscribe R. D. Studio YouTube Channel and press the bell icon to get latest update.</p>
+            <div class="social-links">
+                <img src="facebook.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="linkedin.png" alt="">
+            </div>
+        </div>
+ 
+        <div class="user">
+            <img src="08.jpeg" alt="">
+            <h1>Abdur Rahim</h1>
+            <p>Subscribe R. D. Studio YouTube Channel and press the bell icon to get latest update.</p>
+            <div class="social-links">
+                <img src="facebook.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="linkedin.png" alt="">
+            </div>
+        </div>
+        <div class="user">
+            <img src="06.jpg" alt="">
+            <h1>Khan Salam</h1>
+            <p>Subscribe R. D. Studio YouTube Channel and press the bell icon to get latest update.</p>
+            <div class="social-links">
+                <img src="facebook.png" alt="">
+                <img src="instagram.png" alt="">
+                <img src="twitter.png" alt="">
+                <img src="linkedin.png" alt="">
+            </div>
+        </div>
+        </div>
+
+    
+    </div>
+    </div>
+    <script>
+        var svgCircle = document.getElementById("svgCircle");
+        var step1 = document.getElementById("step1");
+        var step2 = document.getElementById("step2");
+        var step3 = document.getElementById("step3");
+        var step4 = document.getElementById("step4");
+        var step5 = document.getElementById("step5");
+        var main = document.getElementById("main");
+        var userbox = document.getElementById("userbox");
+        
+        main.style.backgroundImage = "url(img-1.jpg)";
+        
+        step1.addEventListener('click',()=>{
+            svgCircle.style.strokeDashoffset = "1004";
+            main.style.backgroundImage = "url(img-2.jpg)";
+            userbox.style.top = "-350px";
+        })
+        
+        step2.addEventListener('click',()=>{
+            svgCircle.style.strokeDashoffset = "753";
+            main.style.backgroundImage = "url(img-3.jpg)";
+             userbox.style.top = "-800px";
+        })
+        
+        step3.addEventListener('click',()=>{
+            svgCircle.style.strokeDashoffset = "502";
+            main.style.backgroundImage = "url(img-4.jpg)";
+             userbox.style.top = "-1250px";
+        })
+        
+        step4.addEventListener('click',()=>{
+            svgCircle.style.strokeDashoffset = "251";
+            main.style.backgroundImage = "url(img-5.jpg)";
+             userbox.style.top = "-1700px";
+        })
+         step5.addEventListener('click',()=>{
+            svgCircle.style.strokeDashoffset = "0";
+            main.style.backgroundImage = "url(img-1.jpg)";
+              userbox.style.top = "100px";
+        })
+    
+        
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
